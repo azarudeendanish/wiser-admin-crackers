@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Table } from 'semantic-ui-react'
+import { Table, Button } from 'semantic-ui-react'
 import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Product = () => {
@@ -72,4 +72,4 @@ const Product = () => {
     )
 }
 
-export default Product
+export default Product;
